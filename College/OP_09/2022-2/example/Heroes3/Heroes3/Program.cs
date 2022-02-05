@@ -12,14 +12,16 @@ namespace Heroes3
         {
             Spearman spearman1 = new Spearman();
             Spearman spearman2 = new Spearman();
-
-            int attackSpearman1 = spearman1.Storming();
-            int attackSpearman2 = spearman2.Storming();
-
-            while(!spearman1.IsDead() || !spearman2.IsDead())
+            int damage1, damage2;
+            while (!spearman1.IsDead() && !spearman2.IsDead())
             {
-                spearman2.LossOfHealth(attackSpearman1);
-                spearman1.LossOfHealth(attackSpearman2);
+                damage1 = spearman1.Storming();
+                spearman2.LossOfHealth(damage1);
+                if (!spearman2.IsDead())
+                {
+                    damage2 = spearman2.Storming();
+                    spearman1.LossOfHealth(damage2);
+                }
             }
             Console.WriteLine("Копейщик 1 мертв: {0}",spearman1.IsDead());
             Console.WriteLine("Копейщик 2 мертв: {0}",spearman2.IsDead());

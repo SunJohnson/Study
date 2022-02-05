@@ -13,13 +13,23 @@ namespace Heroes3
         private int damage = 1 ;
         private int health = 10;
         private int speed = 4;
+
+       
+
         /// <summary>
         /// Атаковать
         /// </summary>
         /// <returns>Сила атаки</returns>
         public int Storming()
         {
-            return attack;
+            //Создание объекта для генерации чисел
+            Random rnd = new Random((int)(DateTime.Now.Ticks));
+            //Random rnd = new Random();
+
+            //Получить случайное число (в диапазоне от 1 до 3)
+            int value = rnd.Next(1,3);
+
+            return value;
         }
         public void LossOfHealth(int damage)
         {
