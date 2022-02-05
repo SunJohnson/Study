@@ -1,0 +1,8 @@
+C:\Work\My\2022\44КСиК11\Heroes3\Heroes3\bin\Debug\Heroes3.exe.config
+C:\Work\My\2022\44КСиК11\Heroes3\Heroes3\bin\Debug\Heroes3.exe
+C:\Work\My\2022\44КСиК11\Heroes3\Heroes3\bin\Debug\Heroes3.pdb
+C:\Work\My\2022\44КСиК11\Heroes3\Heroes3\obj\Debug\Heroes3.0.csproj.AssemblyReference.cache
+C:\Work\My\2022\44КСиК11\Heroes3\Heroes3\obj\Debug\Heroes3.0.csproj.SuggestedBindingRedirects.cache
+C:\Work\My\2022\44КСиК11\Heroes3\Heroes3\obj\Debug\Heroes3.0.csproj.CoreCompileInputs.cache
+C:\Work\My\2022\44КСиК11\Heroes3\Heroes3\obj\Debug\Heroes3.exe
+C:\Work\My\2022\44КСиК11\Heroes3\Heroes3\obj\Debug\Heroes3.pdb
